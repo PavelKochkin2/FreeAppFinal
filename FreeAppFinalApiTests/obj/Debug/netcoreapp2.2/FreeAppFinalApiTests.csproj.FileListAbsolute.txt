@@ -1,0 +1,17 @@
+C:\Users\p.kochkin\source\repos\FreeAppFinal\FreeAppFinalApiTests\bin\Debug\netcoreapp2.2\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\p.kochkin\source\repos\FreeAppFinal\FreeAppFinalApiTests\bin\Debug\netcoreapp2.2\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\p.kochkin\source\repos\FreeAppFinal\FreeAppFinalApiTests\bin\Debug\netcoreapp2.2\xunit.runner.utility.netcoreapp10.dll
+C:\Users\p.kochkin\source\repos\FreeAppFinal\FreeAppFinalApiTests\bin\Debug\netcoreapp2.2\FreeAppFinalApiTests.deps.json
+C:\Users\p.kochkin\source\repos\FreeAppFinal\FreeAppFinalApiTests\bin\Debug\netcoreapp2.2\FreeAppFinalApiTests.runtimeconfig.json
+C:\Users\p.kochkin\source\repos\FreeAppFinal\FreeAppFinalApiTests\bin\Debug\netcoreapp2.2\FreeAppFinalApiTests.runtimeconfig.dev.json
+C:\Users\p.kochkin\source\repos\FreeAppFinal\FreeAppFinalApiTests\bin\Debug\netcoreapp2.2\FreeAppFinalApiTests.dll
+C:\Users\p.kochkin\source\repos\FreeAppFinal\FreeAppFinalApiTests\bin\Debug\netcoreapp2.2\FreeAppFinalApiTests.pdb
+C:\Users\p.kochkin\source\repos\FreeAppFinal\FreeAppFinalApiTests\bin\Debug\netcoreapp2.2\FreeAppFinal.dll
+C:\Users\p.kochkin\source\repos\FreeAppFinal\FreeAppFinalApiTests\bin\Debug\netcoreapp2.2\FreeAppFinal.pdb
+C:\Users\p.kochkin\source\repos\FreeAppFinal\FreeAppFinalApiTests\obj\Debug\netcoreapp2.2\FreeAppFinalApiTests.csprojAssemblyReference.cache
+C:\Users\p.kochkin\source\repos\FreeAppFinal\FreeAppFinalApiTests\obj\Debug\netcoreapp2.2\FreeAppFinalApiTests.csproj.CoreCompileInputs.cache
+C:\Users\p.kochkin\source\repos\FreeAppFinal\FreeAppFinalApiTests\obj\Debug\netcoreapp2.2\FreeAppFinalApiTests.AssemblyInfoInputs.cache
+C:\Users\p.kochkin\source\repos\FreeAppFinal\FreeAppFinalApiTests\obj\Debug\netcoreapp2.2\FreeAppFinalApiTests.AssemblyInfo.cs
+C:\Users\p.kochkin\source\repos\FreeAppFinal\FreeAppFinalApiTests\obj\Debug\netcoreapp2.2\FreeAppFinalApiTests.csproj.CopyComplete
+C:\Users\p.kochkin\source\repos\FreeAppFinal\FreeAppFinalApiTests\obj\Debug\netcoreapp2.2\FreeAppFinalApiTests.dll
+C:\Users\p.kochkin\source\repos\FreeAppFinal\FreeAppFinalApiTests\obj\Debug\netcoreapp2.2\FreeAppFinalApiTests.pdb
