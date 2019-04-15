@@ -11,20 +11,15 @@ using System.Threading.Tasks;
 
 namespace FreeAppFinalApiTests
 {
-    public class FreeItemsControllerGetFreeItem
+    public class FreeItemsControllerGetFreeItem : IClassFixture<TestContext>
     {
         private readonly ApplicationDbContext _context;
         private readonly HttpClient _httpClient;
 
-        public FreeItemsControllerGetFreeItem()
+        public FreeItemsControllerGetFreeItem(TestContext testContext)
         {
-            var builder = new WebHostBuilder()
-                .UseEnvironment("Testing")
-                .UseStartup<Startup>();
-
-            var server = new TestServer(builder);
-            _context = server.Host.Services.GetService(typeof(ApplicationDbContext)) as ApplicationDbContext;
-            _httpClient = server.CreateClient();
+            _context = testContext._context;
+            _httpClient = testContext._httpClient;
         }
 
         [Fact]
