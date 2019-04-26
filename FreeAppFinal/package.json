@@ -1,0 +1,21 @@
+{
+  "version": "1.0.0",
+  "name": "asp.net",
+  "private": true,
+  "scripts": {
+    "start": "lite-server"
+  },
+  "dependencies": {
+    "@material-ui/core": "^1.5.1",
+    "autoprefixer": "7.1.6",
+    "babel-core": "6.26.0",
+    "babel-eslint": "^8.2.5",
+    "babel-jest": "20.0.3",
+    "babel-loader": "7.1.2",
+    "babel-preset-react-app": "^3.1.1",
+    "babel-runtime": "6.26.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "reactstrap": "^8.0.0"
+  }
+}

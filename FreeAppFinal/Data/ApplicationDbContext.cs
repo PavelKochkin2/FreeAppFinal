@@ -1,4 +1,6 @@
-﻿using FreeAppFinal.Models;
+﻿using System.Linq;
+using FreeAppFinal.Models;
+using Microsoft.AspNetCore.Identity.UI.V3.Pages.Internal.Account;
 using Microsoft.EntityFrameworkCore;
 
 namespace FreeAppFinal.Data
@@ -14,6 +16,12 @@ namespace FreeAppFinal.Data
         //{
         //    optionsBuilder.UseSqlServer(@"Server=(P-KOCHKIN);Database=helloappdb;Trusted_Connection=True;");
         //}
+
+
+        //todo: is it fine dispose? 
+        public override void Dispose()
+        {
+        }
 
         public DbSet<FreeItem> FreeItems { get; set; }
     }

@@ -28,6 +28,8 @@ namespace FreeAppFinal.Migrations
 
                     b.Property<string>("Name");
 
+                    b.Property<string>("Photo");
+
                     b.HasKey("Id");
 
                     b.ToTable("FreeItems");

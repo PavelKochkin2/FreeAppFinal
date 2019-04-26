@@ -2,6 +2,7 @@
 using System.Net.Http;
 using FreeAppFinal;
 using FreeAppFinal.Data;
+using FreeAppFinal.Models;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.TestHost;
 
@@ -9,8 +10,8 @@ namespace FreeAppFinalApiTests
 {
     public class TestContext : IDisposable
     {
-        public readonly ApplicationDbContext _context;
-        public readonly HttpClient _httpClient;
+        public ApplicationDbContext DbContext { get; }
+        public HttpClient HttpClient { get; }
 
         public TestContext()
         {
@@ -19,14 +20,22 @@ namespace FreeAppFinalApiTests
                 .UseStartup<Startup>();
 
             var server = new TestServer(builder);
-            _context = server.Host.Services.GetService(typeof(ApplicationDbContext)) as ApplicationDbContext;
-            _httpClient = server.CreateClient();
+            DbContext = server.Host.Services.GetService(typeof(ApplicationDbContext)) as ApplicationDbContext;
+            HttpClient = server.CreateClient();
+
+
+            //todo: add shared item to test context in order not to create one for testing
+            //if (DbContext != null)
+            //{
+            //    DbContext.FreeItems.Add(new FreeItem() {Description = "Test", Id = 1, Name = "Test"});
+            //    DbContext.SaveChanges();
+            //}
         }
 
         public void Dispose()
         {
-            _context.Dispose();
-            _httpClient.Dispose();
+            //DbContext.Dispose();
+            //HttpClient.Dispose();
         }
     }
 }

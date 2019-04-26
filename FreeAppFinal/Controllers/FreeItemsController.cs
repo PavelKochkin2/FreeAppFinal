@@ -2,12 +2,14 @@
 using System.Linq;
 using FreeAppFinal.Data;
 using FreeAppFinal.Models;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FreeAppFinal.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [EnableCors]
     public class FreeItemsController : ControllerBase
     {
         private readonly ApplicationDbContext _context;
@@ -21,6 +23,8 @@ namespace FreeAppFinal.Controllers
         [HttpGet]
         public IActionResult GetFreeItems()
         {
+            if (!_context.FreeItems.Any())
+                return NotFound();
             return Ok(_context.FreeItems.ToList());
         }
 
@@ -52,15 +56,14 @@ namespace FreeAppFinal.Controllers
         {
             var freeItemInDb = _context.FreeItems.FirstOrDefault(item => item.Id == id);
 
-            if (freeItemInDb != null)
-            {
-                freeItemInDb.Name = freeItem.Name;
-                freeItemInDb.Description = freeItem.Description;
-            }
+            if (freeItemInDb == null)
+                return NotFound();
+            freeItemInDb.Name = freeItem.Name;
+            freeItemInDb.Description = freeItem.Description;
 
             _context.SaveChanges();
 
-            return Ok();
+            return Ok(freeItemInDb);
         }
 
         //api/FreeItems/5
@@ -76,11 +79,5 @@ namespace FreeAppFinal.Controllers
 
             return Ok();
         }
-
-        public void sdsdsds()
-        {
-
-        }
-
     }
 }
