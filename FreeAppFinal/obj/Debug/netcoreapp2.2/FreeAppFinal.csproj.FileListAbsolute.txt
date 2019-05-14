@@ -17,3 +17,13 @@ C:\Users\p.kochkin\source\repos\FreeAppFinal\FreeAppFinal\obj\Debug\netcoreapp2.
 C:\Users\p.kochkin\source\repos\FreeAppFinal\FreeAppFinal\bin\Debug\netcoreapp2.2\x64\ChakraCore.dll
 C:\Users\p.kochkin\source\repos\FreeAppFinal\FreeAppFinal\bin\Debug\netcoreapp2.2\x86\ChakraCore.dll
 C:\Users\p.kochkin\source\repos\FreeAppFinal\FreeAppFinal\obj\Debug\netcoreapp2.2\FreeAppFinal.csprojAssemblyReference.cache
+C:\Users\p.kochkin\source\repos\FreeAppFinal\FreeAppFinal\bin\Debug\netcoreapp2.2\FreeAppFinal.Views.dll
+C:\Users\p.kochkin\source\repos\FreeAppFinal\FreeAppFinal\bin\Debug\netcoreapp2.2\FreeAppFinal.Views.pdb
+C:\Users\p.kochkin\source\repos\FreeAppFinal\FreeAppFinal\obj\Debug\netcoreapp2.2\FreeAppFinal.TagHelpers.input.cache
+C:\Users\p.kochkin\source\repos\FreeAppFinal\FreeAppFinal\obj\Debug\netcoreapp2.2\FreeAppFinal.TagHelpers.output.cache
+C:\Users\p.kochkin\source\repos\FreeAppFinal\FreeAppFinal\obj\Debug\netcoreapp2.2\FreeAppFinal.RazorCoreGenerate.cache
+C:\Users\p.kochkin\source\repos\FreeAppFinal\FreeAppFinal\obj\Debug\netcoreapp2.2\Razor\Views\Account\Login.g.cshtml.cs
+C:\Users\p.kochkin\source\repos\FreeAppFinal\FreeAppFinal\obj\Debug\netcoreapp2.2\FreeAppFinal.RazorTargetAssemblyInfo.cs
+C:\Users\p.kochkin\source\repos\FreeAppFinal\FreeAppFinal\obj\Debug\netcoreapp2.2\FreeAppFinal.Views.pdb
+C:\Users\p.kochkin\source\repos\FreeAppFinal\FreeAppFinal\obj\Debug\netcoreapp2.2\FreeAppFinal.csproj.CopyComplete
+C:\Users\p.kochkin\source\repos\FreeAppFinal\FreeAppFinal\obj\Debug\netcoreapp2.2\Razor\Views\Account\Register.g.cshtml.cs

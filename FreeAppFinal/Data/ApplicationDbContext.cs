@@ -24,5 +24,7 @@ namespace FreeAppFinal.Data
         }
 
         public DbSet<FreeItem> FreeItems { get; set; }
+
+        public DbSet<User> Users { get; set; }
     }
 }

@@ -17,3 +17,5 @@ C:\Users\p.kochkin\source\repos\FreeAppFinal\FreeAppFinalApiTests\obj\Debug\netc
 C:\Users\p.kochkin\source\repos\FreeAppFinal\FreeAppFinalApiTests\obj\Debug\netcoreapp2.2\FreeAppFinalApiTests.pdb
 C:\Users\p.kochkin\source\repos\FreeAppFinal\FreeAppFinalApiTests\bin\Debug\netcoreapp2.2\x86\ChakraCore.dll
 C:\Users\p.kochkin\source\repos\FreeAppFinal\FreeAppFinalApiTests\bin\Debug\netcoreapp2.2\x64\ChakraCore.dll
+C:\Users\p.kochkin\source\repos\FreeAppFinal\FreeAppFinalApiTests\bin\Debug\netcoreapp2.2\FreeAppFinal.Views.dll
+C:\Users\p.kochkin\source\repos\FreeAppFinal\FreeAppFinalApiTests\bin\Debug\netcoreapp2.2\FreeAppFinal.Views.pdb
