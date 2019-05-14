@@ -93,5 +93,8 @@ namespace FreeAppFinal.Controllers
             await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
             return RedirectToAction("Login", "Account");
         }
+
+
+
     }
 }
