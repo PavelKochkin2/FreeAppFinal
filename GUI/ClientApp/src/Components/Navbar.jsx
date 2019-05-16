@@ -34,10 +34,20 @@ export default class FreeItemNavbar extends React.Component {
                     <NavbarBrand href="/">One man's trash is another man's treasure</NavbarBrand>
                     <NavbarToggler onClick={this.toggle} />
                     <Collapse isOpen={this.state.isOpen} navbar>
+
                         <Nav className="ml-auto" navbar>
                             <NavItem>
-                                <NavLink href="/components/">Components</NavLink>
+                                <NavLink href="/account/register">Register</NavLink>
                             </NavItem>
+
+                            <NavItem>
+                                <NavLink href="/account/login">Login</NavLink>
+                            </NavItem>
+
+                            <NavItem>
+                                <NavLink href="/account/logout">Logout</NavLink>
+                            </NavItem>
+
                             <NavItem>
                                 <NavLink href="https://github.com/PavelKochkin2">GitHub</NavLink>
                             </NavItem>

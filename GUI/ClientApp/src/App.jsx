@@ -8,7 +8,7 @@ import ViewPhotoModal from './Components/viewPhotoModal';
 
 export default class App extends Component {
 
-    state = {
+   state = {
         freeItems: [],
         newFreeItemData: {
             name: '',
@@ -39,7 +39,7 @@ export default class App extends Component {
     }
 
     addFreeItem() {
-        axios.post('http://localhost:51158/api/freeitems', this.state.newFreeItemData).then((response) => {
+        axios.post(window.location.href + 'api/freeitems', this.state.newFreeItemData).then((response) => {
             let { freeItems } = this.state;
 
             freeItems.push(response.data);
@@ -69,7 +69,7 @@ export default class App extends Component {
     updateFreeItem() {
         let { name, description } = this.state.editFreeItemData;
 
-        axios.put('http://localhost:51158/api/freeitems/' + this.state.editFreeItemData.id,
+        axios.put(window.location.href + 'api/freeitems/' + this.state.editFreeItemData.id,
             {
                 name, description
             }).then((response) => {
@@ -85,7 +85,7 @@ export default class App extends Component {
     }
 
     _refreshFreeItems() {
-        axios.get('http://localhost:51158/api/freeitems').then((response) => {
+        axios.get(window.location.href + 'api/freeitems').then((response) => {
             this.setState({
                 freeItems: response.data
             });
@@ -93,7 +93,7 @@ export default class App extends Component {
     }
 
     deleteFreeItem(id) {
-        axios.delete('http://localhost:51158/api/freeitems/' + id).then((response) => {
+        axios.delete(window.location.href + 'api/freeitems/' + id).then((response) => {
             this._refreshFreeItems();
         });
     }
