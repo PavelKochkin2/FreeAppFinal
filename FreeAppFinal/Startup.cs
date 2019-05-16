@@ -44,8 +44,7 @@ namespace FreeAppFinal
                     options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
             }
 
-            services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
-                .AddCookie(options => options.LoginPath = new PathString("/Account/Login"));
+         
 
             services.AddCors(options =>
             {
@@ -69,7 +68,6 @@ namespace FreeAppFinal
                 config
                     .AddScript("~/app.jsx");
             });
-            app.UseAuthentication();
             app.UseDefaultFiles();
             app.UseStaticFiles();
             app.UseMvc();

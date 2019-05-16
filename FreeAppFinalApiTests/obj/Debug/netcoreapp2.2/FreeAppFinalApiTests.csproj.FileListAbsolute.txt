@@ -1,6 +1,10 @@
+C:\Users\p.kochkin\source\repos\FreeAppFinal\FreeAppFinalApiTests\bin\Debug\netcoreapp2.2\FreeAppFinal.Views.dll
+C:\Users\p.kochkin\source\repos\FreeAppFinal\FreeAppFinalApiTests\bin\Debug\netcoreapp2.2\FreeAppFinal.Views.pdb
 C:\Users\p.kochkin\source\repos\FreeAppFinal\FreeAppFinalApiTests\bin\Debug\netcoreapp2.2\xunit.runner.visualstudio.dotnetcore.testadapter.dll
 C:\Users\p.kochkin\source\repos\FreeAppFinal\FreeAppFinalApiTests\bin\Debug\netcoreapp2.2\xunit.runner.reporters.netcoreapp10.dll
 C:\Users\p.kochkin\source\repos\FreeAppFinal\FreeAppFinalApiTests\bin\Debug\netcoreapp2.2\xunit.runner.utility.netcoreapp10.dll
+C:\Users\p.kochkin\source\repos\FreeAppFinal\FreeAppFinalApiTests\bin\Debug\netcoreapp2.2\x86\ChakraCore.dll
+C:\Users\p.kochkin\source\repos\FreeAppFinal\FreeAppFinalApiTests\bin\Debug\netcoreapp2.2\x64\ChakraCore.dll
 C:\Users\p.kochkin\source\repos\FreeAppFinal\FreeAppFinalApiTests\bin\Debug\netcoreapp2.2\FreeAppFinalApiTests.deps.json
 C:\Users\p.kochkin\source\repos\FreeAppFinal\FreeAppFinalApiTests\bin\Debug\netcoreapp2.2\FreeAppFinalApiTests.runtimeconfig.json
 C:\Users\p.kochkin\source\repos\FreeAppFinal\FreeAppFinalApiTests\bin\Debug\netcoreapp2.2\FreeAppFinalApiTests.runtimeconfig.dev.json
@@ -15,7 +19,3 @@ C:\Users\p.kochkin\source\repos\FreeAppFinal\FreeAppFinalApiTests\obj\Debug\netc
 C:\Users\p.kochkin\source\repos\FreeAppFinal\FreeAppFinalApiTests\obj\Debug\netcoreapp2.2\FreeAppFinalApiTests.csproj.CopyComplete
 C:\Users\p.kochkin\source\repos\FreeAppFinal\FreeAppFinalApiTests\obj\Debug\netcoreapp2.2\FreeAppFinalApiTests.dll
 C:\Users\p.kochkin\source\repos\FreeAppFinal\FreeAppFinalApiTests\obj\Debug\netcoreapp2.2\FreeAppFinalApiTests.pdb
-C:\Users\p.kochkin\source\repos\FreeAppFinal\FreeAppFinalApiTests\bin\Debug\netcoreapp2.2\x86\ChakraCore.dll
-C:\Users\p.kochkin\source\repos\FreeAppFinal\FreeAppFinalApiTests\bin\Debug\netcoreapp2.2\x64\ChakraCore.dll
-C:\Users\p.kochkin\source\repos\FreeAppFinal\FreeAppFinalApiTests\bin\Debug\netcoreapp2.2\FreeAppFinal.Views.dll
-C:\Users\p.kochkin\source\repos\FreeAppFinal\FreeAppFinalApiTests\bin\Debug\netcoreapp2.2\FreeAppFinal.Views.pdb

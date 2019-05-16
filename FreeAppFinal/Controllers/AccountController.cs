@@ -22,7 +22,6 @@ namespace FreeAppFinal.Controllers
             db = context;
         }
 
-        [HttpGet("login")]
         public IActionResult Login()
         {
             return View();
@@ -46,7 +45,6 @@ namespace FreeAppFinal.Controllers
             return View(model);
         }
 
-        [HttpGet("register")]
         public IActionResult Register()
         {
             return View();
@@ -80,7 +78,7 @@ namespace FreeAppFinal.Controllers
             // создаем один claim
             var claims = new List<Claim>
                 {
-            new Claim(ClaimsIdentity.DefaultNameClaimType, userName)
+                        new Claim(ClaimsIdentity.DefaultNameClaimType, userName)
                 };
             // создаем объект ClaimsIdentity
             ClaimsIdentity id = new ClaimsIdentity(claims, "ApplicationCookie", ClaimsIdentity.DefaultNameClaimType, ClaimsIdentity.DefaultRoleClaimType);
